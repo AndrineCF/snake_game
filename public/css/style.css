@@ -1,0 +1,66 @@
+body {
+    background-color: #121212;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Text styles*/
+h1 {
+    color: #39FF14;
+    font-family: 'Audiowide';
+    font-size: 4em;
+}
+
+h2 {
+    color: #39FF14;
+    font-family: 'Audiowide';
+    font-size: 2em;
+}
+
+/* Buttons */
+
+.btn {
+    background-color: #39FF14;
+    font-family: 'Audiowide';
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    width: 30vmin;
+}
+
+/* Container */
+
+.box {
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Snake game elements */
+
+.snake {
+    background-color: #39FF14;
+}
+
+.apple {
+    background-color: red;
+}
+
+.game-board {
+    background-color: #121212;
+    display: grid;
+    grid-template-columns: repeat(var(--n), 1fr);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* grid cells */
+
+.cell-top, .cell-right, .cell-bottom, .cell-left {
+}
